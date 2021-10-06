@@ -1,4 +1,4 @@
-# Link to conference 05.10.2021
+# Link to conference 06.10.2021
 https://meet.google.com/qwr-tnxg-zns
 
 # Contact information:
