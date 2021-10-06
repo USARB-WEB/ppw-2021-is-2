@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS Selectors</h1>
+    <h2>Inline style</h2>
+    <strong>HTML:</strong>
+    <pre>
+        style="background-color: cadetblue; width: 200px; height: 75px;"
+    </pre>
+    <strong>CSS:</strong>
+    <pre>Nothing</pre>
+    <strong>Example:</strong>
+    <div style="background-color: cadetblue; width: 200px; height: 75px;"></div>
+
+    <hr>
+    <h2>ID selector</h2>
+    <strong>HTML:</strong>
+    <pre>
+        id="unique"
+    </pre>
+    <strong>CSS:</strong>
+    <pre>
+        #unique{
+            background-color:burlywood;
+            width: 300px;
+            height: 100px;
+        }
+    </pre>
+    <strong>Example:</strong>
+    <div id="unique"></div>
+
+    <hr>
+    <h2>Class selector</h2>
+    <strong>HTML:</strong>
+    <pre>
+        class="classOfElements"
+    </pre>
+    <strong>CSS:</strong>
+    <pre>
+        .classOfElements{
+            background-color: rgb(172, 172, 74);
+            width: 350px;
+            height: 60px;
+            margin-top: 2px;
+        }
+    </pre>
+    <strong>Example:</strong>
+    <div class="classOfElements"></div>
+    <div class="classOfElements"></div>
+    <div class="classOfElements"></div>
+    <div class="classOfElements"></div>
+    <div class="classOfElements"></div>
+
+    <hr>
+    <h2>Tag selector</h2>
+    <strong>HTML:</strong>
+    <pre>
+        [tag]
+    </pre>
+    <strong>CSS:</strong>
+    <pre>
+        a{
+            color: chocolate;
+            text-decoration: none;
+        }
+    </pre>
+    <strong>Example:</strong>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <a href="#">Link 4</a>
+    <a href="#">Link 5</a>
+
+    <hr>
+    <h2>Universal selector</h2>
+    <strong>HTML:</strong>
+    <pre>
+        Nothing
+    </pre>
+    <strong>CSS:</strong>
+    <pre>
+        *{
+            border: 1px solid red;
+        }
+    </pre>
+    <strong>Example:</strong>
+</body>
+</html>
