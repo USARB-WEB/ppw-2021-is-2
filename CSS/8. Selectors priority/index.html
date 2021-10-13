@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CSS selectors priority</h1>
+    <pre>
+        0 - inline style
+        1 - ID style
+        2 - Class style
+        3 - Tag style
+        4 - Universal selector
+    </pre>
+    <span>Span</span>
+    <div>Element 1</div>
+    <div>Element 2</div>
+    <div>Element 3</div>
+    <div>Element 4</div>
+    <div class="element">Element 5</div>
+    <div class="element">Element 6</div>
+    <div class="element" id="unique" style="background-color: chartreuse;">Element 7</div>
+    <div class="element">Element 8</div>
+    <div class="element">Element 9</div>
+    <div>Element 10</div>
+    <div>Element 11</div>
+    <div>Element 12</div>
+    <div>Element 13</div>
+    <div>Element 14</div>
+</body>
+</html>
