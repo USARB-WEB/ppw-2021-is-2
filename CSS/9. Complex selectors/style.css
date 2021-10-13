@@ -1,0 +1,24 @@
+.square{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.red{
+    background-color: rgb(194, 96, 96);
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: rgb(84, 84, 173);
+}
