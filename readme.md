@@ -1,5 +1,5 @@
-# Link to conference 13.10.2021
-https://meet.google.com/qwr-tnxg-zns
+# Link to conference 27.10.2021
+https://meet.google.com/aii-brzi-xuv
 
 # Contact information:
 + E-mail: chilatsergiu@gmail.com
