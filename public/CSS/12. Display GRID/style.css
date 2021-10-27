@@ -1,0 +1,99 @@
+.grid-element{
+    border: 1px solid red;
+    background-color: thistle;
+}
+
+.grid-container-gtc{
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+}
+
+.grid-container-gtr{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+}
+
+.grid-container-gtrc{
+    display: grid;
+    grid-template-rows: 100px 300px 100px;
+    grid-template-columns: 100px 300px 100px;
+}
+
+.grid-container-fractions{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.grid-container-fractions-px{
+    display: grid;
+    grid-template-columns: 1fr 800px 3fr;  
+}
+
+.grid-container-repeat{
+    display: grid;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+    /*grid-template-columns: repeat(6, 1fr);*/
+
+    /*grid-template-columns: 2fr 1fr 1fr 1fr 1fr 2fr;*/
+    grid-template-columns: 2fr repeat(4, 1fr) 2fr;
+}
+
+.grid-container-gap{
+    display: grid;
+    grid-template-columns: 100px 300px 100px;
+    grid-template-rows: 100px 300px 100px;
+    /*
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    */
+    /*grid-gap: 20px 20px;*/
+    gap: 20px 20px;
+}
+
+
+/*CSS Grid Template Areas */
+
+.page-container{
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+    grid-template-rows: 100px 30px 200px auto 100px;
+
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "a-left section a-right"
+        ". section ."
+        "footer footer footer"
+    ;
+}
+
+header{
+    background-color: aquamarine;
+    grid-area: header;
+}
+
+nav{
+    background-color: violet;
+    grid-area: nav;
+}
+
+aside#a-left{
+    background-color: green;
+    grid-area: a-left;
+}
+
+aside#a-right{
+    background-color: blue;
+    grid-area: a-right;
+}
+
+section{
+    background-color: burlywood;
+    grid-area: section;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    grid-area: footer;
+}
