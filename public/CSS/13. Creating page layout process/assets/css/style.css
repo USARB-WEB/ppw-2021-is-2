@@ -1,0 +1,82 @@
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+header figure{
+    display: grid;
+    grid-template-columns: 40px auto;
+    margin: 0;
+}
+
+header figure figcaption{
+    font-family: Nunito;
+    font-size: 24px;
+    color: #3E3F43;
+}
+
+header nav{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+}
+
+header nav a{
+    font-family: Nunito;
+    color: #222222;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav a.active{
+    color: #DAA520;
+    font-weight: bold;
+}
+
+header nav a.button{
+    width: 137px;
+    height: 40px;
+    border: 1px solid #3E3F43;
+    border-radius: 8px;
+    display: grid;
+    align-items: center;
+}
+
+section#main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+section#main div span{
+    color: #3E3F43;
+    font-size: 36px;
+    font-family: Nunito;
+}
+
+section#main div h1{
+    color: #3E3F43;
+    font-size: 72px;
+    font-family: Nunito;
+}
+
+section#main div a.button{
+    width: 175px;
+    height: 50px;
+    border: none;
+    background-color: #DAA520;
+    border-radius: 8px;
+    display: grid;
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: Nunito;
+}
