@@ -1,0 +1,55 @@
+body{
+    background: rgb(36, 35, 35);
+}
+
+.element{
+    width: 300px;
+    height: 120px;
+    background-color: gray;
+    border: 1px solid red;
+}
+
+.relative{
+    position: relative;
+    background-color: greenyellow;
+    left: 50px;
+    top: -50px;
+}
+
+.absolute{
+    position: absolute;
+    background-color: blue;
+    left: 50px;
+    top: 50px;
+}
+
+.fixed{
+    position: fixed;
+    background-color: red;
+    left: 50px;
+    top: 50px;
+}
+
+#field{
+    border: 5px solid white;
+    width: 800px;
+    height: 400px;
+    background: green;
+}
+
+#ball{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: honeydew;
+    position: sticky;
+    left: 400px;
+    top: 200px;
+}
+
+.bottom-right{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: orange;
+}
