@@ -38,3 +38,6 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 # Designs
 + https://www.figma.com/file/N6pJfdausO5qWrCrNlCjTG/Woodies?node-id=5%3A3
+
+# Frameworks
++ Vuetify example https://github.com/sergiuchilat/vuetify-cdn-sample
