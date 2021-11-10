@@ -40,4 +40,5 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 + https://www.figma.com/file/N6pJfdausO5qWrCrNlCjTG/Woodies?node-id=5%3A3
 
 # Frameworks
++ Vuetify framework https://vuetifyjs.com/
 + Vuetify example https://github.com/sergiuchilat/vuetify-cdn-sample
