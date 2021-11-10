@@ -41,4 +41,6 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 
 # Frameworks
 + Vuetify framework https://vuetifyjs.com/
-+ Vuetify example https://github.com/sergiuchilat/vuetify-cdn-sample
++ Vuetify examples:
+  + https://github.com/sergiuchilat/vuetify-cdn-sample
+  + https://github.com/sergiuchilat/vuetify-cdn-sample-2
