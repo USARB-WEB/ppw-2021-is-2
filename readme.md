@@ -32,6 +32,9 @@ https://www.w3schools.com/cssref/pr_class_display.asp
 # Tools & useful links
 + https://cssminifier.com/
 + https://fonts.google.com/
++ Content fill
+  + https://placeholder.com/
+  + https://www.lipsum.com/
 + Emet abbreviarions
   + https://code.visualstudio.com/docs/editor/emmet
   + https://docs.emmet.io/abbreviations/#:~:text=Abbreviations%20are%20the%20heart%20of,knows%20how%20to%20use%20it.
